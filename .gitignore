@@ -1,0 +1,5 @@
+#remove dist build folder
+dist
+#Node Moudules
+node_modules
+
