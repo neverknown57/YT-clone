@@ -19,7 +19,7 @@ function App() {
 }
 const Navbar = () => {
   return (
-    <div className="flex fixed bg-slate-200 w-full justify-between z-20 items-center px-4">
+    <div className="flex fixed bg-white dark:bg-black w-full justify-between z-20 items-center px-4">
       <div className="">
 
         <img className=' w-5 h-5' src='/hamburger.svg' alt='humberger logo' />
@@ -69,7 +69,7 @@ const Video = () => {
   console.log(input)
   return (
     // < h1 > okay</h1 >
-    <div className=' grid md:grid-cols-3' >
+    <div className=' pt-16 grid md:grid-cols-3' >
       {
         input.map(vide => {
           return <VidoCard
